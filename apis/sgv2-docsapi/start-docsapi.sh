@@ -25,7 +25,7 @@ if [[ "$_java" ]]; then
         exit 1
     fi
 fi
-
+# Locate
 # Locate uber-jar file aka "runner"
 DOCSAPI_DIR=`dirname "$0"`
 DOCSAPI_JAR=$(find $DOCSAPI_DIR -type f -iname "sgv2-docsapi-*-runner.jar")
